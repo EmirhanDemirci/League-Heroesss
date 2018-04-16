@@ -67,7 +67,7 @@ if (isset($_POST['first_name'])) {
     $comment = $_POST['Comment'];
     $rating = $_POST['rating'];
 
-    $sql4 = "INSERT INTO comments ( Name, comment ,rating, champions_id) VALUES ('$Name', '$comment', $rating ,'$champions_id')";
+    $sql4 = "INSERT INTO comments ( Name, comment ,rating, champions_id, Datum ) VALUES ('$Name', '$comment', $rating ,'$champions_id',now())";
 
     if(!mysqli_query($conn, $sql4))
     {
@@ -253,6 +253,7 @@ if (isset($_GET['champions'])) {
                                             foreach ($comment as $key => $value) {
                                                 if ($value['champions_id'] == $_GET['champions']) {
                                                     echo '<div class="customerContainer">';
+                                                    echo $value['Datum'];
                                                     echo '<div class="customerData">';
                                                     echo '<b> first-name: </b> </br>';
                                                     echo $value['Name'];
