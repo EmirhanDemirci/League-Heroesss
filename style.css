@@ -1,0 +1,308 @@
+body {
+    position: relative;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color:yellow;
+}
+.header{
+    color:gray;
+    height:120px;
+    background-color: black;
+    border-bottom: solid 2px lightblue;
+}
+
+/*Hieronder komen css layout voor de 3 colomen */
+/* Create three equal columns that floats next to each other */
+#content, html, body {
+    height: 98%;
+}
+.center::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.center::-webkit-scrollbar {
+    width: 12px;
+    background-color: red;
+}
+.center::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: lightblue;
+}
+
+.center::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.center::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: lightblue;
+}
+
+.center::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: lightblue;
+}
+
+/*left*/
+.left::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: black;
+}
+
+.left::-webkit-scrollbar {
+    width: 12px;
+    background-color: yellow;
+}
+.left::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: black;
+}
+
+.left::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.left::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: lightblue;
+}
+
+.left::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: lightblue;
+}
+
+ /*right*/
+.right::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.right::-webkit-scrollbar {
+    width: 12px;
+    background-color: lightblue;
+}
+.right::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: lightblue;
+}
+
+.right  ::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+
+.right::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: lightblue;
+}
+
+#center{
+    width: 34%;
+    background: white;
+    height:100%;
+    overflow: scroll;
+}
+#right {
+    margin-top: -15px;
+    float: right;
+    width: 36%;
+    height:100%;
+    background: White;
+    overflow: scroll;
+}
+.content
+{
+    width: 100%;
+    height:100%;
+}
+.left
+{
+    float: left;
+    width: 400px;
+    height:100%;
+    background-color: black;
+    overflow: scroll;
+}
+.right
+{
+    float: left;
+    width: 533px;
+    height:100%;
+    position: sticky;
+    background-color: black;
+    overflow: scroll;
+}
+.center
+{
+    float: left;
+    width: 400px;
+    height:100%;
+    background-color: white;
+    overflow: scroll;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+/*hier komt css van alle lanes */
+.titlelanes{
+
+}
+.divlanes{
+    background-color:black;
+    margin-top:10px;
+    color:white;
+}
+#containerKaart{
+    border:solid 2px black;
+}
+#containerAfbeelding{
+    height: 150px!important;
+}
+.championName{
+    position: center;
+}
+#containerKaart{
+    height: 216px;
+    background-color: black;
+    border: solid yellow 1px;
+
+}
+#containerOmschrijving{
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-left: 172px;
+    color: black;
+}
+#titleLeft{
+    height: 135px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#titleClick{
+    height: 100px;
+    margin-top: 0px;
+
+}
+#titleLeft:enabled{
+    background-color: black;
+}
+#titleLeft:active{
+    background-color:black;
+    color:Yellow;
+}
+#titleLeft:hover {
+    background-color: black;
+    color: Yellow;
+}
+.championbutton{
+    text-decoration: none;
+}
+#containerLeftTop{
+    background-image: url("");
+    background-color: black;
+    color:yellow;
+    height: 139px;
+    border-bottom: yellow solid 2px;
+    border-left: yellow solid 2px;
+    border-right: yellow solid 2px;
+}
+.imageLeft{
+    background-color: white;
+    margin-top: 0px;
+    width: 150px;
+    height: 139px;
+    border-right: solid 2px yellow;
+}
+.name{
+    text-decoration: none;
+    color:yellow;
+    margin-top:0px;
+}
+.imageLast{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 250px;
+    width: 300px;
+}
+.comment{
+    float: left;
+
+}
+.boxcomment{
+ float:left;
+}
+.commentshampions{
+    overflow: scroll;
+    height: 200px;
+    width: 400px;
+    float:right;
+    background-color: lightblue;
+}
+.commentsection{
+    bottom: -95px;
+    height: 215px;
+    position: relative;
+}
+.ButtonMoreInfo{
+    color: lightblue;
+    text-decoration-line: none;
+    border: solid 1px yellow;
+
+}
+.ButtonMoreInfo:hover{
+    background-color: yellow;
+    border: solid 1px lightblue;
+}
+
+.Namecenter{
+    color:yellow;
+    margin-top: -67px;
+}
